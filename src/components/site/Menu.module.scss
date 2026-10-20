@@ -84,3 +84,9 @@
   .num { position: static; flex: none; }
   .hbox { position: static; flex: 1; width: auto; }
 }
+@media (max-width: 820px) {
+  .cols { top: 92px; }
+  .col { border-top: 1px solid rgba(159, 166, 184, 0.12); }
+  .num { width: 22px; }
+  .chrome { background: var(--navy); height: 92px; padding-top: 0; padding-bottom: 0; }
+}
