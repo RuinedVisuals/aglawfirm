@@ -3,11 +3,11 @@
 const WP = 'https://aglawfirm.co/wp-content/uploads/2023/12/';
 
 export const IMAGES = {
-  hero: undefined as string | undefined, // '/images/hero.jpg' — architecture, stone, light (dark-toned)
-  interlude: undefined as string | undefined, // '/images/interlude.jpg' — office, archive, books
+  hero: '/images/hero.png' as string | undefined, // '/images/hero.jpg' — architecture, stone, light (dark-toned)
+  interlude: '/images/themis.jpg' as string | undefined, // '/images/interlude.jpg' — office, archive, books
   portrait: undefined as string | undefined, // '/images/portrait.jpg' (b/w)
-  commercial: undefined as string | undefined,
-  'real-estate': undefined as string | undefined,
+  commercial: '/images/themis.jpg' as string | undefined,
+  'real-estate': '/images/hero.png' as string | undefined,
   office: undefined as string | undefined,
   article: undefined as string | undefined,
   gens: [undefined, undefined] as (string | undefined)[],

@@ -3,7 +3,7 @@ import { content, type Dict, type Locale } from '@/content/content';
 export const locales: Locale[] = ['el', 'en'];
 export const defaultLocale: Locale = 'el';
 export const isLocale = (v: string): v is Locale => (locales as string[]).includes(v);
-export const getDict = (l: Locale): Dict => content[l] as Dict;
+export const getDict = (l: Locale): Dict => (content[l] ?? content[defaultLocale]) as Dict;
 
 export const PRACTICE_SLUGS = { 'commercial-corporate-law': 'commercial', 'real-estate': 'real-estate' } as const;
 export type PracticeSlug = keyof typeof PRACTICE_SLUGS;
