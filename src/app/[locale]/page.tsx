@@ -6,7 +6,6 @@ import { Interlude } from '@/components/home/Interlude';
 import { Heritage } from '@/components/home/Heritage';
 import { PracticeAreas } from '@/components/home/PracticeAreas';
 import { Approach, InsightsTeaser } from '@/components/home/Sections';
-import { ClosingCta } from '@/components/site/ClosingCta';
 import { Footer } from '@/components/site/Footer';
 import { getDict } from '@/lib/i18n';
 import { IMAGES } from '@/lib/images';
@@ -33,8 +32,8 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       <PracticeAreas h={h} l={l} images={IMAGES.areas} />
       <Approach h={h} />
       <InsightsTeaser h={h} l={l} />
-      <ClosingCta d={d} l={l} label={h.art + ' VII — ' + h.ctLabel} />
-      <Footer d={d} />
+      
+      <Footer d={d} label={h.art + ' VII — ' + h.ctLabel} />
     </main>
   );
 }

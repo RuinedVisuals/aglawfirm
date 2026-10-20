@@ -31,7 +31,7 @@ export function Header() {
   return (
     <header className={s.header}>
       <TLink href={pageHref(locale, 'home')} className={s.brand} aria-label="AG Law Firm — home">
-        <span className={s.mark}>AG</span>
+        <span className={s.mark}><span className={s.markImg} /></span>
         <span className={s.brandText}>
           <span className={s.name}>AG LAW FIRM</span>
           <span className={s.sub}>{dict.ui.attorneys}</span>

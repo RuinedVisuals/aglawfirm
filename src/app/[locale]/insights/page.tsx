@@ -1,5 +1,4 @@
 import { PageHero } from '@/components/site/PageHero';
-import { ClosingCta } from '@/components/site/ClosingCta';
 import { Footer } from '@/components/site/Footer';
 import { InsightsView } from '@/components/pages/InsightsView';
 import { getDict } from '@/lib/i18n';
@@ -18,7 +17,6 @@ export default function Insights({ params }: { params: { locale: Locale } }) {
     <main>
       <PageHero kicker={d.insights.kicker} title={d.insights.title} lede={d.insights.lede} size="xl" lineTitle />
       <InsightsView d={d} l={l} />
-      <ClosingCta d={d} l={l} />
       <Footer d={d} />
     </main>
   );

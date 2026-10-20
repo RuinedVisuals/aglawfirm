@@ -1,5 +1,4 @@
 import { Reveal } from '@/components/site/Reveal';
-import { Figure } from '@/components/site/Figure';
 import { Footer } from '@/components/site/Footer';
 import { ContactForm } from '@/components/pages/ContactForm';
 import { getDict } from '@/lib/i18n';
@@ -28,12 +27,19 @@ export default function Contact({ params }: { params: { locale: Locale } }) {
             <Reveal className="info info--big"><span className="info__k">{u.office}</span><span className="serif">{u.address}</span></Reveal>
             <Reveal className="info info--big"><span className="info__k">{u.phone}</span><a className="serif" href={site.phoneHref}>{site.phone}</a></Reveal>
             <Reveal className="info info--big"><span className="info__k">{u.email}</span><a className="serif" href={'mailto:' + site.email}>{site.email}</a></Reveal>
-            <Reveal type="clip" className="ratio-4-3"><Figure label={c.mapPh} sizes="40vw" /></Reveal>
+            <Reveal type="clip" className="contact__map">
+              <iframe
+                title={u.office}
+                src={'https://www.google.com/maps?q=' + encodeURIComponent('Τάκη Οικονομάκη 2, Βόλος 382 21') + '&hl=' + params.locale + '&z=16&output=embed'}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </Reveal>
           </div>
           <div className="col-7-12"><Reveal><ContactForm f={c.form} /></Reveal></div>
         </div>
       </section>
-      <Footer d={d} />
+      <Footer d={d} cta={false} />
     </main>
   );
 }

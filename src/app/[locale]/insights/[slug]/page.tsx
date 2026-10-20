@@ -2,7 +2,6 @@ import { notFound } from 'next/navigation';
 import { Reveal } from '@/components/site/Reveal';
 import { Figure } from '@/components/site/Figure';
 import { TLink } from '@/components/site/TLink';
-import { ClosingCta } from '@/components/site/ClosingCta';
 import { Footer } from '@/components/site/Footer';
 import { ArticleToc } from '@/components/pages/ArticleToc';
 import { ARTICLE_SLUG, getDict, locales, pageHref } from '@/lib/i18n';
@@ -39,7 +38,7 @@ export default function Article({ params }: { params: Params }) {
             <span className="gold">{u.sample}</span>
           </Reveal>
           <Reveal className="meta kicker"><span className="gold">{a.cat}</span><span className="slate">{a.date}</span><span className="slate">{a.read} {u.min}</span></Reveal>
-          <Reveal as="h1" className="serif display-l2 balance measure-16">{a.title}</Reveal>
+          <Reveal as="h1" className="serif display-l2 balance measure-24">{a.title}</Reveal>
           <div className="auto-grid-260 gap-40 align-end">
             <Reveal className="byline">{u.author} <span>{a.author}</span></Reveal>
             <Reveal as="p" className="serif article__lede">{a.lede}</Reveal>
@@ -81,7 +80,6 @@ export default function Article({ params }: { params: Params }) {
           </div>
         </section>
       </article>
-      <ClosingCta d={d} l={l} />
       <Footer d={d} />
     </main>
   );

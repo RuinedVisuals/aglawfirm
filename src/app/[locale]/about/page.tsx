@@ -1,7 +1,6 @@
 import { PageHero } from '@/components/site/PageHero';
 import { Reveal } from '@/components/site/Reveal';
 import { Figure } from '@/components/site/Figure';
-import { ClosingCta } from '@/components/site/ClosingCta';
 import { Footer } from '@/components/site/Footer';
 import { getDict } from '@/lib/i18n';
 import { IMAGES } from '@/lib/images';
@@ -92,7 +91,6 @@ export default function About({ params }: { params: { locale: Locale } }) {
         </div>
       </section>
 
-      <ClosingCta d={d} l={l} />
       <Footer d={d} />
     </main>
   );

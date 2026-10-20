@@ -5,6 +5,7 @@ import { Inter, Noto_Serif_Display } from 'next/font/google';
 import { SiteProvider } from '@/components/site/SiteProvider';
 import { Header } from '@/components/site/Header';
 import { Menu } from '@/components/site/Menu';
+import { QuickContact } from '@/components/site/QuickContact';
 import { getDict, isLocale, locales } from '@/lib/i18n';
 import '@/styles/globals.scss';
 
@@ -18,7 +19,7 @@ export function generateStaticParams() {
 export const metadata: Metadata = {
   metadataBase: new URL('https://aglawfirm.co'),
   title: { default: 'AG Law Firm — Alkiviadis S. Gkanatsios & Associates', template: '%s — AG Law Firm' },
-  description: 'Independent law firm in Volos, Greece — commercial & corporate law, real estate and litigation since 1983.'
+  description: 'Law firm in Volos, Greece — commercial & corporate law, real estate and litigation since 1983.'
 };
 
 export default function LocaleLayout({ children, params }: { children: ReactNode; params: { locale: string } }) {
@@ -30,6 +31,7 @@ export default function LocaleLayout({ children, params }: { children: ReactNode
         <SiteProvider locale={params.locale} dict={dict}>
           <Header />
           <Menu />
+          <QuickContact />
           {children}
         </SiteProvider>
       </body>

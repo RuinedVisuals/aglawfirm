@@ -89,7 +89,7 @@ export function Menu() {
         })}
       </nav>
       <div ref={chrome} className={s.chrome}>
-        <span className={s.logo}>AG</span>
+        <span className={s.logo}><img src="/images/logo.webp" alt="AG" /></span>
         <div className={s.chromeRight}>
           <a className={s.phone} href={site.phoneHref} tabIndex={menuOpen ? 0 : -1}>{site.phone}</a>
           <Magnetic>

@@ -31,13 +31,13 @@ export function Heritage({ h, portrait }: { h: HomeDict; portrait?: string }) {
         <div className="heritage__top">
           <div className="stack-24">
             <span className="kicker slate">{h.art} III — {h.herLabel}</span>
-            <h2 className="serif display-m2 balance measure-14">{h.herTitle}</h2>
+            <h2 className="serif display-m2 balance measure-24">{h.herTitle}</h2>
           </div>
           <div className="heritage__portrait"><Figure src={portrait} label="Portrait (b/w)" sizes="240px" /></div>
         </div>
         <div className="heritage__mid">
           <span ref={year} className="heritage__year serif outline">1983</span>
-          <div className="stack-16 measure-34">
+          <div className="stack-16 measure-52">
             <span className="serif italic gold fs-24">{active.y}</span>
             <span className="serif heritage__text">{active.text}</span>
           </div>

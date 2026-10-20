@@ -3,7 +3,6 @@ import { Reveal } from '@/components/site/Reveal';
 import { Figure } from '@/components/site/Figure';
 import { TLink } from '@/components/site/TLink';
 import { Accordion } from '@/components/site/Accordion';
-import { ClosingCta } from '@/components/site/ClosingCta';
 import { Footer } from '@/components/site/Footer';
 import { getDict, pageHref, ROMAN } from '@/lib/i18n';
 import { IMAGES } from '@/lib/images';
@@ -56,7 +55,6 @@ export default function Expertise({ params }: { params: { locale: Locale } }) {
         />
       </section>
 
-      <ClosingCta d={d} l={l} />
       <Footer d={d} />
     </main>
   );

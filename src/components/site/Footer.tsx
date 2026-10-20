@@ -1,6 +1,7 @@
 'use client';
 
 import { useSite } from './SiteProvider';
+import { ClosingCta } from './ClosingCta';
 import type { Dict } from '@/content/content';
 
 function TopButton({ label }: { label: string }) {
@@ -8,9 +9,11 @@ function TopButton({ label }: { label: string }) {
   return <button className="footer__top" onClick={() => scrollTo(0)}>{label} ↑</button>;
 }
 
-export function Footer({ d }: { d: Dict }) {
+export function Footer({ d, cta = true, label }: { d: Dict; cta?: boolean; label?: string }) {
+  const { locale } = useSite();
   return (
     <footer className="footer g">
+      {cta && <ClosingCta d={d} l={locale} label={label} />}
       <div className="footer__row">
         <span>© {new Date().getFullYear()} ALKIVIADIS S. GKANATSIOS &amp; ASSOCIATES</span>
         <div className="footer__links">

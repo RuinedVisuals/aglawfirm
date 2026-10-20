@@ -2,7 +2,8 @@
 export const site = {
   "phone": "+30 24210 22647",
   "phoneHref": "tel:+302421022647",
-  "email": "info@aglawfirm.co"
+  "email": "info@aglawfirm.co",
+  "instagram": "https://www.instagram.com/alkis_gkanatsios/"
 } as const;
 
 export const content = {
@@ -32,7 +33,7 @@ export const content = {
       "ctL2": "talk.",
       "ctText": "For a first consultation, contact the firm directly. Please do not send case details through the website.",
       "ctCta": "CONTACT THE FIRM",
-      "wordmark": "Gkanatsios",
+      "wordmark": "AG LAW FIRM",
       "enquire": "ENQUIRE",
       "indicative": "INDICATIVE",
       "expertise": "EXPERTISE",
@@ -78,14 +79,14 @@ export const content = {
     "about": {
       "kicker": "THE FIRM",
       "title": "In the pursuit of justice, every word is a step towards the truth.",
-      "meta": "VOLOS BAR ASSOCIATION · SINCE 1983",
+      "meta": "LAW FIRM · SINCE 1983",
       "lede": "A law firm with more than three decades of history in litigation and legal advisory work — and a family tradition that continues.",
       "photo1": "https://aglawfirm.co/wp-content/uploads/2023/12/338940586_247697237616820_4005818914437811899_n-1-1024x537.jpg",
       "photo2": "https://aglawfirm.co/wp-content/uploads/2023/12/339244505_816811046634808_3100284138490780276_n-1024x682.jpg",
       "introK": "WHO WE ARE",
       "introH": "Committed to the rule of law: three decades of practice.",
       "introP": [
-        "The firm continues a long family legal tradition that began in 1983, when Sotirios Gkanatsios first registered with the Volos Bar Association — later passing the baton to his son, Alkiviadis Gkanatsios.",
+        "The firm continues a long family legal tradition that began in 1983, when Sotirios Gkanatsios began practising law in Volos — later passing the baton to his son, Alkiviadis Gkanatsios.",
         "That continuity is a commitment to a profession defined by professionalism, dedication and specialisation. Today the firm provides legal services that are both legally rigorous and practically workable, with a clear focus on commercial law and real estate."
       ],
       "gensK": "GENERATIONS",
@@ -95,15 +96,15 @@ export const content = {
           "n": "I",
           "name": "Sotirios Gkanatsios",
           "year": "1983",
-          "role": "FOUNDER",
-          "text": "Registers with the Volos Bar Association and establishes the family practice in litigation."
+          "role": "ATTORNEY AT LAW",
+          "text": "Starts out in litigation in Volos in 1983 and soon opens his own firm."
         },
         {
           "n": "II",
           "name": "Alkiviadis S. Gkanatsios",
-          "year": "TODAY",
+          "year": "2020",
           "role": "ATTORNEY AT LAW",
-          "text": "Carries the practice forward, joining courtroom experience with advisory work for businesses and property owners."
+          "text": "Takes over the firm in 2020, combining courtroom experience with advice for businesses and property owners."
         }
       ],
       "valuesK": "PRINCIPLES",
@@ -465,17 +466,17 @@ export const content = {
           "Volos · +30 24210 22647"
         ]
       ],
-      "heroKicker": "INDEPENDENT LAW FIRM · VOLOS",
+      "heroKicker": "LAW FIRM · VOLOS",
       "heroA": "A legacy",
       "heroB": "of trust.",
       "heroC": "A modern perspective.",
-      "heroLede": "Independent legal counsel in commercial & corporate law, real estate and complex legal matters.",
+      "heroLede": "Legal counsel in commercial & corporate law, real estate and complex legal matters.",
       "cta": "EXPLORE",
       "est": "EST. 1983",
       "firmLabel": "The Firm",
       "introStatement": "Two generations of legal practice — now focused on the matters that shape businesses and property.",
-      "introBody": "Founded by Sotirios Gkanatsios and continued by Alkiviadis S. Gkanatsios, the firm brings courtroom experience to considered advisory work: discreet, precise and personally led.",
-      "footnote": "Family legal practice registered with the Volos Bar Association, 1983.",
+      "introBody": "Started by Sotirios Gkanatsios and led today by Alkiviadis S. Gkanatsios. Courtroom experience and careful advice, delivered with discretion and personal attention.",
+      "footnote": "Law firm in Volos since 1983.",
       "introLink": "ABOUT THE FIRM",
       "expLabel": "CORE EXPERTISE",
       "expHint": "TWO PILLARS OF PRACTICE",
@@ -511,18 +512,18 @@ export const content = {
       "timeline": [
         {
           "y": "1983",
-          "short": "FOUNDATION",
-          "text": "Sotirios Gkanatsios establishes the family legal practice in Volos."
+          "short": "BEGINNINGS",
+          "text": "Sotirios Gkanatsios starts out in litigation in Volos and soon opens his own firm."
         },
         {
-          "y": "Continuity",
+          "y": "2020",
           "short": "SECOND GENERATION",
-          "text": "Alkiviadis S. Gkanatsios carries the practice forward, joining litigation with advisory work."
+          "text": "Alkiviadis S. Gkanatsios takes over the firm and combines courtroom work with advisory work."
         },
         {
           "y": "2026",
           "short": "TODAY",
-          "text": "A contemporary boutique firm with a clear focus on commercial law and real estate."
+          "text": "A firm that handles a wide range of matters, with a special focus on commercial law and real estate."
         }
       ],
       "paLabel": "PRACTICE AREAS",
@@ -583,7 +584,7 @@ export const content = {
         {
           "cat": "MEDIA",
           "date": "JUL 2026",
-          "title": "On the role of the independent law firm today"
+          "title": "On the role of the law firm today"
         }
       ],
       "ctLabel": "CONTACT",
@@ -627,7 +628,7 @@ export const content = {
       "ctL2": "μιλήσουμε.",
       "ctText": "Για μια πρώτη συνάντηση, επικοινωνήστε απευθείας με το γραφείο. Παρακαλούμε μην αποστέλλετε στοιχεία υποθέσεων μέσω της ιστοσελίδας.",
       "ctCta": "ΕΠΙΚΟΙΝΩΝΙΑ",
-      "wordmark": "Γκανάτσιος",
+      "wordmark": "AG LAW FIRM",
       "enquire": "ΡΩΤΗΣΤΕ ΜΑΣ",
       "indicative": "ΕΝΔΕΙΚΤΙΚΑ",
       "expertise": "ΕΞΕΙΔΙΚΕΥΣΗ",
@@ -673,14 +674,14 @@ export const content = {
     "about": {
       "kicker": "ΤΟ ΓΡΑΦΕΙΟ",
       "title": "Στον αγώνα για τη δικαιοσύνη, κάθε λέξη είναι ένα βήμα προς την αλήθεια.",
-      "meta": "ΔΙΚΗΓΟΡΙΚΟΣ ΣΥΛΛΟΓΟΣ ΒΟΛΟΥ · ΑΠΟ ΤΟ 1983",
+      "meta": "ΔΙΚΗΓΟΡΙΚΟ ΓΡΑΦΕΙΟ · ΑΠΟ ΤΟ 1983",
       "lede": "Ένα δικηγορικό γραφείο με περισσότερα από τριάντα χρόνια ιστορίας στη μαχόμενη και συμβουλευτική δικηγορία — και μια οικογενειακή παράδοση που συνεχίζεται.",
       "photo1": "https://aglawfirm.co/wp-content/uploads/2023/12/338940586_247697237616820_4005818914437811899_n-1-1024x537.jpg",
       "photo2": "https://aglawfirm.co/wp-content/uploads/2023/12/339244505_816811046634808_3100284138490780276_n-1024x682.jpg",
       "introK": "ΠΟΙΟΙ ΕΙΜΑΣΤΕ",
       "introH": "Δεσμευμένοι στον λόγο του δικαίου: τριάντα χρόνια πορείας.",
       "introP": [
-        "Το γραφείο αποτελεί συνέχεια μακράς οικογενειακής νομικής παράδοσης από το 1983, όταν ο Σωτήριος Γκανάτσιος εγγράφηκε για πρώτη φορά στο μητρώο του Δικηγορικού Συλλόγου Βόλου, δίνοντας αργότερα τη σκυτάλη στον υιό του, Αλκιβιάδη Γκανάτσιο.",
+        "Το γραφείο αποτελεί συνέχεια μακράς οικογενειακής νομικής παράδοσης από το 1983, όταν ο Σωτήριος Γκανάτσιος ξεκίνησε να ασκεί τη δικηγορία στον Βόλο, δίνοντας αργότερα τη σκυτάλη στον υιό του, Αλκιβιάδη Γκανάτσιο.",
         "Η συνέχεια αυτή είναι δέσμευση σε ένα επάγγελμα που διακρίνεται από επαγγελματισμό, αφοσίωση και εξειδίκευση. Σήμερα το γραφείο παρέχει λύσεις νομικά εξειδικευμένες και πρακτικά λειτουργικές, με σαφή εστίαση στο εμπορικό δίκαιο και τα ακίνητα."
       ],
       "gensK": "ΓΕΝΙΕΣ",
@@ -690,15 +691,15 @@ export const content = {
           "n": "I",
           "name": "Σωτήριος Γκανάτσιος",
           "year": "1983",
-          "role": "ΙΔΡΥΤΗΣ",
-          "text": "Εγγράφεται στον Δικηγορικό Σύλλογο Βόλου και ιδρύει την οικογενειακή πρακτική στη μαχόμενη δικηγορία."
+          "role": "ΔΙΚΗΓΟΡΟΣ",
+          "text": "Ξεκινά τη μαχόμενη δικηγορία στον Βόλο το 1983 και σύντομα ανοίγει το δικό του γραφείο."
         },
         {
           "n": "II",
           "name": "Αλκιβιάδης Σ. Γκανάτσιος",
-          "year": "ΣΗΜΕΡΑ",
+          "year": "2020",
           "role": "ΔΙΚΗΓΟΡΟΣ",
-          "text": "Συνεχίζει το γραφείο, ενώνοντας τη δικαστηριακή εμπειρία με τη συμβουλευτική για επιχειρήσεις και ιδιοκτήτες ακινήτων."
+          "text": "Αναλαμβάνει το γραφείο το 2020 και συνδυάζει τη δικαστηριακή εμπειρία με συμβουλευτική για επιχειρήσεις και ιδιοκτήτες ακινήτων."
         }
       ],
       "valuesK": "ΑΡΧΕΣ",
@@ -1060,17 +1061,17 @@ export const content = {
           "Βόλος · 24210 22647"
         ]
       ],
-      "heroKicker": "ΑΝΕΞΑΡΤΗΤΟ ΔΙΚΗΓΟΡΙΚΟ ΓΡΑΦΕΙΟ · ΒΟΛΟΣ",
-      "heroA": "Παράδοση",
-      "heroB": "εμπιστοσύνης.",
-      "heroC": "Σύγχρονη ματιά.",
-      "heroLede": "Ανεξάρτητη νομική συμβουλευτική και εκπροσώπηση στο εμπορικό και εταιρικό δίκαιο, στα ακίνητα και σε σύνθετες νομικές υποθέσεις.",
+      "heroKicker": "ΔΙΚΗΓΟΡΙΚΟ ΓΡΑΦΕΙΟ · ΒΟΛΟΣ",
+      "heroA": "Νομική",
+      "heroB": "εμπειρία.",
+      "heroC": "Σύγχρονη σκέψη.",
+      "heroLede": "Νομική συμβουλευτική και εκπροσώπηση στο εμπορικό και εταιρικό δίκαιο, στα ακίνητα και σε σύνθετες νομικές υποθέσεις.",
       "cta": "ΑΝΑΚΑΛΥΨΤΕ",
       "est": "ΑΠΟ ΤΟ 1983",
       "firmLabel": "Το Γραφείο",
       "introStatement": "Δύο γενιές δικηγορικής πράξης — με εστίαση σήμερα στα ζητήματα που διαμορφώνουν επιχειρήσεις και ακίνητη περιουσία.",
-      "introBody": "Το γραφείο ιδρύθηκε από τον Σωτήριο Γκανάτσιο και συνεχίζεται από τον Αλκιβιάδη Σ. Γκανάτσιο, συνδυάζοντας την εμπειρία της δικαστηριακής πράξης με προσεκτική συμβουλευτική: διακριτικά, με ακρίβεια και προσωπική ευθύνη.",
-      "footnote": "Οικογενειακή δικηγορική πρακτική, Δικηγορικός Σύλλογος Βόλου, 1983.",
+      "introBody": "Το γραφείο ξεκίνησε με τον Σωτήριο Γκανάτσιο και διευθύνεται σήμερα από τον Αλκιβιάδη Σ. Γκανάτσιο. Δικαστηριακή εμπειρία και προσεκτική συμβουλευτική, με διακριτικότητα και προσωπική φροντίδα.",
+      "footnote": "Δικηγορικό γραφείο στον Βόλο από το 1983.",
       "introLink": "ΓΝΩΡΙΣΤΕ ΤΟ ΓΡΑΦΕΙΟ",
       "expLabel": "ΚΥΡΙΟΙ ΤΟΜΕΙΣ",
       "expHint": "ΔΥΟ ΠΥΛΩΝΕΣ ΠΡΑΚΤΙΚΗΣ",
@@ -1106,18 +1107,18 @@ export const content = {
       "timeline": [
         {
           "y": "1983",
-          "short": "ΙΔΡΥΣΗ",
-          "text": "Ο Σωτήριος Γκανάτσιος ιδρύει την οικογενειακή δικηγορική πρακτική στον Βόλο."
+          "short": "ΑΡΧΕΣ",
+          "text": "Ο Σωτήριος Γκανάτσιος ξεκινά τη μαχόμενη δικηγορία στον Βόλο και σύντομα ανοίγει το δικό του γραφείο."
         },
         {
-          "y": "Συνέχεια",
+          "y": "2020",
           "short": "ΔΕΥΤΕΡΗ ΓΕΝΙΑ",
-          "text": "Ο Αλκιβιάδης Σ. Γκανάτσιος συνεχίζει, ενώνοντας τη μαχόμενη με τη συμβουλευτική δικηγορία."
+          "text": "Ο Αλκιβιάδης Σ. Γκανάτσιος αναλαμβάνει το γραφείο και συνδυάζει τη δικαστηριακή με τη συμβουλευτική δικηγορία."
         },
         {
           "y": "2026",
           "short": "ΣΗΜΕΡΑ",
-          "text": "Ένα σύγχρονο boutique γραφείο με σαφή εστίαση στο εμπορικό δίκαιο και τα ακίνητα."
+          "text": "Ένα γραφείο που αναλαμβάνει ευρύ φάσμα υποθέσεων, με ιδιαίτερη εστίαση στο εμπορικό δίκαιο και τα ακίνητα."
         }
       ],
       "paLabel": "ΤΟΜΕΙΣ ΔΙΚΑΙΟΥ",
@@ -1178,7 +1179,7 @@ export const content = {
         {
           "cat": "MEDIA",
           "date": "ΙΟΥΛ 2026",
-          "title": "Ο ρόλος του ανεξάρτητου δικηγορικού γραφείου σήμερα"
+          "title": "Ο ρόλος του δικηγορικού γραφείου σήμερα"
         }
       ],
       "ctLabel": "ΕΠΙΚΟΙΝΩΝΙΑ",
