@@ -1,0 +1,22 @@
+.curtain { position: fixed; inset: 0; z-index: 85; pointer-events: none; overflow: hidden; }
+.cols { position: absolute; inset: 0; display: flex; }
+.col {
+  flex: 1;
+  transform: translateY(101%);
+  background: var(--navy);
+  border-right: 1px solid rgba(159, 166, 184, 0.08);
+  &:nth-child(even) { background: var(--navy-2); }
+}
+.text { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: 20px; padding: 0 var(--gutter); }
+.mask { overflow: hidden; padding-bottom: 0.1em; }
+.kicker { display: block; transform: translateY(110%); font-size: 11px; letter-spacing: 0.24em; font-weight: 500; color: var(--gold); }
+.title {
+  display: block;
+  transform: translateY(110%);
+  font-family: var(--serif);
+  font-weight: 300;
+  font-size: clamp(64px, 12vw, 220px);
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+  color: var(--ivory);
+}
