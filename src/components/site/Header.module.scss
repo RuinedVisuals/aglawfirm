@@ -47,3 +47,6 @@
   .header { padding: 18px var(--gutter); }
 }
 .name { white-space: nowrap; }
+@media (max-width: 820px) {
+  .header { display: flex; justify-content: space-between; }
+}
